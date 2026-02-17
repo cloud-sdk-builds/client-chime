@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-chime`](https://www.npmjs.com/package/@aws-sdk/client-chime/v/3.925.0).
+[`@aws-sdk/client-chime`](https://www.npmjs.com/package/@aws-sdk/client-chime/v/3.926.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.925.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.926.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Iw6cwulaWswI21zPpuPDDOQGBVFW7GG1hY5ux7HN4lL29z8jMk6AkFpD0AK8P8ac
+sha384-0f+74EF3Ol+5XDydBRL/Kg5fzEt3d7yksZrY4bgzJsIwQv3PwAoaqfXSmayCiDTk
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-chime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.925.0/index.min.mjs"
+            "@aws-sdk/client-chime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.926.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.925.0/index.min.mjs": "sha384-Iw6cwulaWswI21zPpuPDDOQGBVFW7GG1hY5ux7HN4lL29z8jMk6AkFpD0AK8P8ac"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.926.0/index.min.mjs": "sha384-0f+74EF3Ol+5XDydBRL/Kg5fzEt3d7yksZrY4bgzJsIwQv3PwAoaqfXSmayCiDTk"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-chime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.925.0/index.min.mjs"
+                        "@aws-sdk/client-chime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.926.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.925.0/index.min.mjs": "sha384-Iw6cwulaWswI21zPpuPDDOQGBVFW7GG1hY5ux7HN4lL29z8jMk6AkFpD0AK8P8ac"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime@3.926.0/index.min.mjs": "sha384-0f+74EF3Ol+5XDydBRL/Kg5fzEt3d7yksZrY4bgzJsIwQv3PwAoaqfXSmayCiDTk"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.925.0`)
+* Always pin to a specific version (`@3.926.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-chime/blob/refs/tags/3.925.0/LICENSE
+https://github.com/cloud-sdk-builds/client-chime/blob/refs/tags/3.926.0/LICENSE
 ```
 
 ---
